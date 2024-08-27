@@ -67,6 +67,7 @@ public class crypt extends JFrame {
 		while (theReader.hasNextLine()) {
 			aNewArray.add(theReader.nextLine());
 		}
+		theReader.close();
 		return aNewArray;
     }
 	
